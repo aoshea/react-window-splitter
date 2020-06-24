@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.handle {
+  position: relative;
+  margin-left: auto;
+}
+
+.track {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  bottom: 0;
+  width: 10px;
+  cursor: ew-resize;
+  pointer-events: all;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.track:hover {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.pane {
+  border: 1px solid #f8f8f8;
+  padding: 8px;
+}
+

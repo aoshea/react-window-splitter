@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    "sourceMap": true,
+    "target": "es6",
+    "lib": ["dom", "es6"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["./src/__tests__/**/*"]
+}
